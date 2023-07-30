@@ -9,7 +9,11 @@ namespace ServiceLocator
 {
     public class GameplayViewService : MonoBehaviour, IService
     {
+        [Header("Scene Services")]
+
+
         private SceneManager _sceneManager;
+
 
         private void Awake()
         {
